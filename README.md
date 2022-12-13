@@ -7,12 +7,6 @@ This repository has violations of Tell Don't Ask Principle, discussed in the cou
 You need to identify and correct them.
 ```
 
-### About the Review Process
-
-* **Merge Request (MR)** - the whole review process happens on one single MR. By that, the MR must remain _Open_ until the mentee receives their grade.
-* **Multiple rounds** - Usually, mentors have to review the work of the mentee for several rounds - meaning that mentees are expected to work on the same MR until the mentor approves that. At that time, **the task's deadline counter stops.**
-* **"SME review"** - after the mentor approves the MR, a new round "Subject Matter Expert review" happens. During this round, experts review the result of the refactor, communication between mentee and mentor, plagiarism, the mentor's work, and so on. It can result with additional comments on the MR that the mentee has to address. After this stage the mentee receives the grade and the practical task is considered passed.
-
 ### General Task Guidelines
 
 * Please, **don't** change the **requrements-dev or any package versions** of projects.
