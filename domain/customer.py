@@ -9,3 +9,12 @@ class Customer:
 
     def update_balance(self, amount):
         self.balance = self.balance + amount
+
+    def is_eligible_for_mortgage(self, amount_requested):
+        if self.bad_credit_history_count != 0:
+            return False
+
+        if self.balance <= 0:
+            return False
+
+        return self.balance * 2 >= amount_requested

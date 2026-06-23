@@ -54,6 +54,6 @@ class TestMortgageApplicationQueueProcessor(TestCase):
         customer_repository.get_customer.return_value = customer
         maqp = MortgageApplicationQueueProcessor(customer_repository)
 
-        maqp.process_request(customer, requested_amount)
+        maqp.process_request(1, requested_amount)
 
         self.assertEqual(expected_result, customer.balance)
